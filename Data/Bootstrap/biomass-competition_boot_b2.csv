@@ -1,0 +1,17 @@
+"","focal x comp","inoculum","q.05","q.95","estimate"
+"1","ENGERO x ENGERO","sterilized+dead",0,0,0
+"2","ENGERO x ENGERO","sterilized+living",0,0,0
+"3","ENGERO x ENGERO","unsterilized+dead",0,0,0
+"4","ENGERO x ENGERO","unsterilized+living",0,0,0
+"5","ENGERO x MACHZU","sterilized+dead",-1.16565862972611,-0.29922149775994,-0.736394440150371
+"6","ENGERO x MACHZU","sterilized+living",0,0,0
+"7","ENGERO x MACHZU","unsterilized+dead",0,0,0
+"8","ENGERO x MACHZU","unsterilized+living",0,0,0
+"9","MACHZU x ENGERO","sterilized+dead",0,0,0
+"10","MACHZU x ENGERO","sterilized+living",0,0,0
+"11","MACHZU x ENGERO","unsterilized+dead",0,0,0
+"12","MACHZU x ENGERO","unsterilized+living",0,0,0
+"13","MACHZU x MACHZU","sterilized+dead",0,0,0
+"14","MACHZU x MACHZU","sterilized+living",0,0,0
+"15","MACHZU x MACHZU","unsterilized+dead",0,0,0
+"16","MACHZU x MACHZU","unsterilized+living",0,0,0
