@@ -17,6 +17,7 @@ Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host 
 1. ``biomass-competition_boot-metrics-unnest.rdata``: Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the log(1 + competitor harvest biomass / competitor initial biomass). 
 2. ``biomass-competition-08_boot-metrics-unnest.rdata``: Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the log(1 + competitor harvest biomass)
 3. ``density-competition_boot-metrics-unnest.rdata``： Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the competitor density
+4. Other ``csv`` files are summary statistics for generating Table S1-S8.
 
 **CleanData**
 1. ``biomass_coef.rdata``: linear regression results by using log(1 + competitor harvest biomass / competitor initial biomass) as explanatory variable.
