@@ -25,7 +25,6 @@ Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host 
 4. ``performance.csv`` and ``performance.rdata``: harvest biomass measurements for all individuals in the experiment.
 
 **Figures**
-Contains all figures used in the manuscript.
 1. ``biomass-competition_comp-coef.pdf``: Figure 3b
 2. ``biomass-competition_comp-outcome.pdf``: Figure 4b
 3. ``biomass-competition_intrinsic-growth.pdf``: Figure 3a
