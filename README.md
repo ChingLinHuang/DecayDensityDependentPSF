@@ -1,7 +1,16 @@
 # DecayDensityDependentPSF
-Data and R scripts for Huang et al. (2026) Plant and Soil. 
+Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host death to shape density-dependent plant competition. *Plant and Soil*. 
 
 ## Code
+1. ``01_Data-Preparation.R``: Prepare ``performance.csv`` from raw data for analysis.
+2. ``02_Performance_Biomass.R``: Generate Figure 2 and prepare bootstrap data for Figure 3-4 and Table S1-S6.
+3. ``02_Performance_density.R``: Generate Figure S2 and prepare bootstrap data for Figure S3 and Table S7-S8.
+4. ``03_plotting_Biomass.R``: Generate Figure 3-4.
+5. ``03_plotting_Biomass.R``: Generate Figure S3.
+6. ``04_tables_Biomass.R``: Generate Table S1-S6.
+7. ``04_tables_density.R: Generate Table S7-S8.
+8. ``08_Performance_Biomass_different-model-fit.R``: Prepare bootstrap data for Figure S4.
+
 
 ## Data
 **Bootstrap**
