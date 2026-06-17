@@ -8,7 +8,7 @@ Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host 
 4. ``03_plotting_Biomass.R``: Generate Figure 3-4.
 5. ``03_plotting_Biomass.R``: Generate Figure S3.
 6. ``04_tables_Biomass.R``: Generate Table S1-S6.
-7. ``04_tables_density.R'': Generate Table S7-S8.
+7. ``04_tables_density.R``: Generate Table S7-S8.
 8. ``08_Performance_Biomass_different-model-fit.R``: Prepare bootstrap data for Figure S4.
 
 
