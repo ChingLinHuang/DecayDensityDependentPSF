@@ -59,7 +59,5 @@ Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host 
 4. ``biomass-competition_boot_comp.tex``: Table S6
 5. ``biomass-competition_boot_persist.tex``: Table S5
 6. ``biomass-competition_F-test_2_0.tex``: Table S1
-7. ``density-competition_boot_a.tex``: Bootstrap distributions of single individual growth using competitor density as the explanatory variable.
-8. ``density-competition_boot_b.tex``: Bootstrap distributions of competitor effects using competitor density as the explanatory variable.
-9. ``density-competition_boot_comp.tex``: Table S8
-10. ``density-competition_boot_persist.tex``: Table S7
+7. ``density-competition_boot_comp.tex``: Table S8
+8. ``density-competition_boot_persist.tex``: Table S7
