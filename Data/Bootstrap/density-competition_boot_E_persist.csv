@@ -1,9 +1,0 @@
-"","inoculum","IGR","ratio","label"
-"1","sterilized+dead","IGR > 0",0.0133,NA
-"2","sterilized+living","IGR > 0",0.9513,"▲"
-"3","unsterilized+dead","IGR > 0",0.5552,"▲"
-"4","unsterilized+living","IGR > 0",0.9685,"▲"
-"5","sterilized+dead","IGR < 0",0.9867,"▲"
-"6","sterilized+living","IGR < 0",0.0487,NA
-"7","unsterilized+dead","IGR < 0",0.4448,NA
-"8","unsterilized+living","IGR < 0",0.0315000000000001,NA
