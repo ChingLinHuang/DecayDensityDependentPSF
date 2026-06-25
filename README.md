@@ -3,25 +3,26 @@ Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host 
 
 ## Code
 1. ``01_Data-Preparation.R``: Prepare ``performance.csv`` from raw data for analysis.
-2. ``02_Performance_Biomass.R``: Generate Figure 2 and prepare bootstrap data for Figure 3-4 and Table S1-S6.
-3. ``02_Performance_density.R``: Generate Figure S2 and prepare bootstrap data for Figure S3 and Table S7-S8.
-4. ``03_plotting_Biomass.R``: Generate Figure 3-4. Prepare summary statistics for Tables S1-S6.
-5. ``03_plotting_Biomass.R``: Generate Figure S3. Prepare summary statistics for Tables S7-S8.
-6. ``04_tables_Biomass.R``: Generate Table S1-S6.
-7. ``04_tables_density.R``: Generate Table S7-S8.
-8. ``08_Performance_Biomass_different-model-fit.R``: Prepare bootstrap data for Figure S4.
-
+2. ``02_Performance_Biomass.R``: Generate Figure 2 and prepare bootstrap data for Figure 3-4 and Table S1-S6. Note that bootstrapping can take some time to run. Figures can also be generated using the saved /Bootstrap .rdata files.
+3. ``02_Performance_Biomass_different-model-fit.R``: Prepare bootstrap data for Figure S4. Note that bootstrapping can take some time to run. Figures can also be generated using the saved /Bootstrap .rdata files.
+4. ``02_Performance_density.R``: Generate Figure S2 and prepare bootstrap data for Figure S3 and Table S7-S8. Note that bootstrapping can take some time to run. Figures can also be generated using the saved /Bootstrap .rdata files.
+5. ``03_plotting_Biomass.R``: Generate Figure 3-4. Prepare summary statistics for Tables S1-S6.
+6. ``03_plotting_Biomass_different-model-fit.R``: Generate Figure S4.
+7. ``03_plotting_Biomass.R``: Generate Figure S3. Prepare summary statistics for Tables S7-S8.
+8. ``04_tables_Biomass.R``: Generate Table S1-S6.
+9. ``04_tables_density.R``: Generate Table S7-S8.
+   
 
 ## Data
 **Bootstrap**
 1. ``biomass-competition_boot-metrics-unnest.rdata``: Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the log(1 + competitor harvest biomass / competitor initial biomass). 
-2. ``biomass-competition-08_boot-metrics-unnest.rdata``: Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the log(1 + competitor harvest biomass)
+2. ``biomass-competition-different-model-fit_boot-metrics-unnest.rdata``: Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the log(1 + competitor harvest biomass)
 3. ``density-competition_boot-metrics-unnest.rdata``： Bootstrap samples of single individual growth, and competitor effects when regressing focal species growth on the competitor density
 4. Other ``csv`` files are summary statistics for generating Table S1-S8.
 
 **CleanData**
 1. ``biomass_coef.rdata``: linear regression results by using log(1 + competitor harvest biomass / competitor initial biomass) as explanatory variable.
-2. ``biomass-08_coef.rdata``: linear regression results by using log(1 + competitor harvest biomass) as explanatory variable.
+2. ``biomass-different-model-fit_coef.rdata``: linear regression results by using log(1 + competitor harvest biomass) as explanatory variable.
 3. ``density_coef.rdata``: linear regression results by using competitor density as explanatory variable.
 4. ``performance.csv`` and ``performance.rdata``: harvest biomass measurements for all individuals in the experiment.
 
@@ -31,10 +32,10 @@ Data and R scripts for Huang et al.: Plant–soil feedback persists beyond host 
 3. ``biomass-competition_intrinsic-growth.pdf``: Figure 3a
 4. ``biomass-competition_model-fit.pdf``: Figure 2
 5. ``biomass-competition_persist.pdf``: Figure 4a
-6. ``biomass-competition-08_comp-coef.pdf``: Figure S4b
-7. ``biomass-competition-08_comp-outcome.pdf``: Figure S4d
-8. ``biomass-competition-08_intrinsic-growth.pdf``: Figure S4a
-9. ``biomass-competition-08_persist.pdf``: Figure S4c
+6. ``biomass-competition-different-model-fit_comp-coef.pdf``: Figure S4b
+7. ``biomass-competition-different-model-fit_comp-outcome.pdf``: Figure S4d
+8. ``biomass-competition-different-model-fit_intrinsic-growth.pdf``: Figure S4a
+9. ``biomass-competition-different-model-fit_persist.pdf``: Figure S4c
 10. ``density-competition_comp-coef.pdf``: Figure S3b
 11. ``density-competition_comp-outcome.pdf``: Figure S3d
 12. ``density-competition_intrinsic-growth.pdf``: Figure S3a
