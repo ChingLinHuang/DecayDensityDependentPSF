@@ -1,0 +1,33 @@
+"","inoculum","outcome","n","ratio"
+"1","sterilized
++dead","ENGERO wins",31,0.0031
+"2","sterilized
++dead","MACHZU wins",7212,0.7212
+"3","sterilized
++dead","coexist",102,0.0102
+"4","sterilized
++dead","priority effect",2655,0.2655
+"5","sterilized
++living","ENGERO wins",2740,0.274
+"6","sterilized
++living","MACHZU wins",337,0.0337
+"7","sterilized
++living","coexist",6773,0.6773
+"8","sterilized
++living","priority effect",150,0.015
+"9","unsterilized
++dead","ENGERO wins",4302,0.4302
+"10","unsterilized
++dead","MACHZU wins",1066,0.1066
+"11","unsterilized
++dead","coexist",1250,0.125
+"12","unsterilized
++dead","priority effect",3382,0.3382
+"13","unsterilized
++living","ENGERO wins",2999,0.2999
+"14","unsterilized
++living","MACHZU wins",211,0.0211
+"15","unsterilized
++living","coexist",6686,0.6686
+"16","unsterilized
++living","priority effect",104,0.0104
